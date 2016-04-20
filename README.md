@@ -7,4 +7,4 @@ Feel free with doing everything with it
 
 Licence - MIT
 
-http://http://qialex.me/snake - live demo
+http://qialex.me/snake - live demo
