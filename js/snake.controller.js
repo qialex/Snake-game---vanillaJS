@@ -50,6 +50,9 @@ var controller = {
 			};
 			
 			if (keyKodes[e.keyCode]) {
+				// Защищаемся от прокрутки экрана на больших полях
+				event.preventDefault();
+				
 				//Этот иф сработает только в начале игры
 				if (self.tempData.direction == '') {
 					self.tempData.direction = keyKodes[e.keyCode];
@@ -182,7 +185,12 @@ var controller = {
 			mainObj.queue.push([targetX, targetY]); // змея стала длинней
 			mainObj.head = [targetX, targetY]; // голова теперь там где была еда
 			
-			this.model.setNewMeal (this.mainObj.arr); // кидаем новую еду
+			var isWinner = this.model.setNewMeal (this.mainObj.arr); // кидаем новую еду
+			if (isWinner) {
+				alert ("You win!");
+				this.gameOver();
+				return false;
+			}
 			
 			td.count++; 
 			

@@ -64,7 +64,8 @@ var model = {
 		}
 		
 		if (availablePlaces.length < 1) {
-			// TODO : WE HAVE A WINNER!!!! // хотя проверять это конечно надо там где мы считаем сумму съеденных клеток, но там этого пока нет
+			// TODO : WE HAVE A WINNER!!!!
+			return true;
 		}
 		else {
 			var rand = Math.round( Math.random() * availablePlaces.length - 0.5 );
@@ -73,5 +74,7 @@ var model = {
 			var y = availablePlaces[rand][1];
 			arr[x][y] = 'meal';
 		}
+		
+		return false;
 	}
 }
