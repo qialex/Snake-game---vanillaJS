@@ -7,4 +7,4 @@ Feel free with doing everything with it
 
 Licence - MIT
 
-http://qialex.me/snake - live demo
+http://qialex.github.io/Snake-game---vanillaJS/ - live demo
