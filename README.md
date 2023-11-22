@@ -1,10 +1,10 @@
 Snake - vanillaJS
 ====================
 
-author: [Alexander Ishchenko](http://qialex.me)
+Author: [Alex Ishenko](http://qialex.me/ui)
 
-Feel free with doing everything with it
+Feel free to use it with no restrictions
 
-Licence - MIT
+License - MIT
 
 http://qialex.github.io/Snake-game---vanillaJS/ - live demo
