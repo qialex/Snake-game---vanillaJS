@@ -52,7 +52,7 @@ var view = {
 		this.confPanel.innerHTML = 'Поле: ' + config.FieldSize + 'x' + config.FieldSize + ' ' + 
 			'Jump to the other side: ' + (config.teleportMoving == true ? 'allowed' : 'not allowed') + '<br /><br />' + 
 			'Speed: <ul><li>initial: ' + config.initialSpeed + '</li><li>minimal: ' + config.minSpeed + 
-			'</li><li>sped step: ' + config.levelIncreacingSpeed + '</li><li>change frequency: ' + config.stepIncreacing + '</li></ul>' + 
+			'</li><li>speed step: ' + config.levelIncreacingSpeed + '</li><li>change frequency: ' + config.stepIncreacing + '</li></ul>' + 
 			'To start <b>playing</b> use <b>arrow keys</b> on a keyboard';
 
 		this.parentElement.appendChild(this.confPanel);
