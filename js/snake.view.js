@@ -50,10 +50,10 @@ var view = {
 		this.confPanel.id = 'snakePanelConf';
 		
 		this.confPanel.innerHTML = 'Поле: ' + config.FieldSize + 'x' + config.FieldSize + ' ' + 
-			'Выход за пределы поля: ' + (config.teleportMoving == true ? 'разрешен' : 'запрещен') + '<br /><br />' + 
-			'Скорость: <ul><li>начальная: ' + config.initialSpeed + '</li><li>минимальная: ' + config.minSpeed + 
-			'</li><li>шаг скоросоти: ' + config.levelIncreacingSpeed + '</li><li>частота изменения: ' + config.stepIncreacing + '</li></ul>' + 
-			'Чтобы играть - жмите стрелки на клавиатуре';
+			'Jump to the other side: ' + (config.teleportMoving == true ? 'allowed' : 'not allowed') + '<br /><br />' + 
+			'Speed: <ul><li>initial: ' + config.initialSpeed + '</li><li>minimal: ' + config.minSpeed + 
+			'</li><li>sped step: ' + config.levelIncreacingSpeed + '</li><li>change frequency: ' + config.stepIncreacing + '</li></ul>' + 
+			'To start <b>playing</b> use <b>arrow keys</b> on a keyboard';
 
 		this.parentElement.appendChild(this.confPanel);
 	},
@@ -82,6 +82,6 @@ var view = {
 		}
 		
 		//Строка состояния
-		this.tempPanel.innerHTML = 'Счет: ' + tempData.count + ', Скорость: ' + tempData.currentMoveSpeed + ' ';	
+		this.tempPanel.innerHTML = 'Score: ' + tempData.count + ', Speed: ' + tempData.currentMoveSpeed + ' ';	
 	}
 }
