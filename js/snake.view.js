@@ -1,6 +1,6 @@
 /**
  * VanillaJS Snake
- * @author Alexander Ishchenko <http://qialex.me>
+ * @author Alex Ishenko <http://qialex.me/ui>
  * License: MIT 
  */
 
