@@ -49,7 +49,7 @@ var view = {
 		//Панель настроек - сделать возможным изменение настроек (легко)
 		this.confPanel.id = 'snakePanelConf';
 		
-		this.confPanel.innerHTML = 'Поле: ' + config.FieldSize + 'x' + config.FieldSize + ' ' + 
+		this.confPanel.innerHTML = 'Field: ' + config.FieldSize + 'x' + config.FieldSize + ' ' + 
 			'Jump to the other side: ' + (config.teleportMoving == true ? 'allowed' : 'not allowed') + '<br /><br />' + 
 			'Speed: <ul><li>initial: ' + config.initialSpeed + '</li><li>minimal: ' + config.minSpeed + 
 			'</li><li>speed step: ' + config.levelIncreacingSpeed + '</li><li>change frequency: ' + config.stepIncreacing + '</li></ul>' + 
