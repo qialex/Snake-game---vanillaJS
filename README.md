@@ -1,7 +1,7 @@
 Snake - vanillaJS
 ====================
 
-Author: [Alex Ishenko](http://qialex.me/ui)
+Author: [Aleksandr Ishchenko](http://qialex.me/)
 
 Feel free to use it with no restrictions
 
